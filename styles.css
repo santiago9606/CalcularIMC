@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16 nov 2021, 1:53:06
+    Author     : Gonzalo
+*/
+
+body
+{
+    background:  lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor_general
+{
+    position: relative;
+    width:100%;
+    max-width: 2000px;
+    min-height:1000px;
+    background: cyan;
+    margin: 50px;
+    display: grid;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.Titulo
+{
+    margin:auto;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.block label
+{
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+
